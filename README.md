@@ -15,7 +15,7 @@
 ### Key Strategies
 1.  **Model Architecture**: `PNA (Principal Neighbourhood Aggregation)` 기반의 GNN 모델 사용
 2.  **Self-Supervised Pre-training**:
-    * **Dataset**: ZINC (약 2,300만 개 중 일부 추출 및 정제)
+    * **Dataset**: ZINC (약 2,300만 개)
     * **Method**: SimCLR 프레임워크를 활용한 Contrastive Learning (Node/Edge Masking Augmentation 적용)
 3.  **External Data Utilization**:
     * PubChem (AID 1851, 884, 885) 데이터를 수집 및 정제하여 학습 데이터 확장
